@@ -1,14 +1,12 @@
 #include "AUEffectBase.h"				//routines from apple :-)
 #include "AllPassVersion.h"				//defines version no. company name etc
 
-//----- Not sure what this does
 #if AU_DEBUG_DISPATCHER
 	#include "AUDebugDispatcher.h"
 #endif
 
 #ifndef __AllPass_h__
 #define __AllPass_h__
-//----------
 
 //........................
 // Constancs for parameters and presets go here
