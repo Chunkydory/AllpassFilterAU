@@ -14,7 +14,7 @@ AUDIOCOMPONENT_ENTRY(AUBaseFactory, AllPassFilter)
 // The constructor for new AllPassFilter audio units
 AllPassFilter::AllPassFilter (AudioUnit component) : AUEffectBase (component) {
 
-	// This method, defined in the AUBase ssuperclass, inssures that the required audio unit
+	// This method, defined in the AUBase superclass, insures that the required audio unit
 	// elements are created and initialized.
 	CreateElements ();
 	

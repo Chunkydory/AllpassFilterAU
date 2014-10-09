@@ -9,7 +9,7 @@
 #define __AllPass_h__
 
 //........................
-// Constancs for parameters and presets go here
+// Constants for parameters and presets go here
 //........................
 
 static CFStringRef kParamName_AllPass_Freq 	= CFSTR("Frequency");		//name of the "frequency" paramter (knob, slider)
