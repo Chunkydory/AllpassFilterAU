@@ -14,10 +14,10 @@
 // Constancs for parameters and presets go here
 //........................
 
-static CFStringRef kParamName_AllPass_Freq 		= CFSTR("Frequency");		//name of the "frequency" paramter (knob, slider)
-static const float kDefaultValue_AllPass_Freq	= 50.0;						// default value for "frequency" parameter
-static const float kMinimumValue_AllPass_Freq 	= 2.0;						// minimum value for "frequency" parameter
-static const float kMaximumValue_AllPass_Freq 	= 20.0;						// maxium value
+static CFStringRef kParamName_AllPass_Freq 	= CFSTR("Frequency");		//name of the "frequency" paramter (knob, slider)
+static const float kDefaultValue_AllPass_Freq	= 50.0;				// default value for "frequency" parameter
+static const float kMinimumValue_AllPass_Freq 	= 2.0;				// minimum value for "frequency" parameter
+static const float kMaximumValue_AllPass_Freq 	= 20.0;				// maxium value
 
 enum {	//defines constants for identifying the parameters
 	kParameter_Frequency		= 0	
